@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pagination-list {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+}
+.pagination-list-item {
+  border: 1px solid rgba(0,0,0,.5);
+  padding: 0;
+  display: flex;
+
+  padding: 2px;
+}
+.pagination-list-item a {
+  text-decoration: none;
+  margin: 0;
+}
