@@ -5,10 +5,10 @@ import prev from "./svg/prev.svg";
 
 class Pagination extends Component {
   render() {
-    const { perPage, total, paginate, currentPage } = this.props;
+    const { perPage, total, paginate, currentPage, withFooter } = this.props;
 
     const pageNumbers = [];
-    for (let i = 1; i <= Math.ceil(total / per_page); i++) {
+    for (let i = 1; i <= Math.ceil(total / perPage); i++) {
       pageNumbers.push(i);
     }
 
@@ -28,10 +28,14 @@ class Pagination extends Component {
             </li>
           ))}
         </ul>
-        <p>
-          Página {currentPage} do total de {Math.ceil(total / perPage)} página
-          (s)
-        </p>
+        {withFooter ? (
+          <p>
+            Página {currentPage} do total de {Math.ceil(total / perPage)} página
+            (s)
+          </p>
+        ) : (
+          ""
+        )}
       </nav>
     );
   }
