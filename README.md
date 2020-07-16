@@ -94,7 +94,7 @@ const Pagination = ({ perPage, total, paginate, current, withFooter }) => {
 
 ## 🏁 Como rodar projeto
 
-- Acessar terminal na pasta ./web e inserir os comandos:
+- Acessar terminal no diretório do projeto e inserir os comandos:
 
 ```
 npm install
