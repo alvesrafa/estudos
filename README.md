@@ -8,7 +8,8 @@
 
   <img src="https://i.imgur.com/PG8yNTo.png" >
 
-  #### Em breve um deploy de exemplo
+  #### Aplicação em deploy aqui:
+  <a href="https://pagination-component.netlify.app/">Pagination-Component</a>
 
 ## 🏁 Código-font <a name = "getting_started"></a>
 
